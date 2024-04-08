@@ -1,5 +1,5 @@
-﻿using ApiEmpleadosMultiplesRoutes.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using NugetApiModels.Models;
 
 namespace ApiEmpleadosMultiplesRoutes.Data
 {

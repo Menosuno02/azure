@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetApiModelsAlejo</id>
+    <version>1.0.0</version>
+    <title>Models para API</title>
+    <authors>Menosuno02</authors>
+    <description>no se</description>
+    <repository type="git" commit="749203ebaaf03b2c70032365a2479735140ad28a" />
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\NugetApiModels\NugetApiModels\bin\Release\net7.0\NugetApiModels.dll" target="lib\net7.0\NugetApiModels.dll" />
+  </files>
+</package>

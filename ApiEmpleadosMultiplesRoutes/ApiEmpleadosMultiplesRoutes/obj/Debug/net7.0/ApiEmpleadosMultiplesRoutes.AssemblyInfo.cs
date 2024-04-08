@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiEmpleadosMultiplesRoutes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2fed364e25a6f2c0dd61d0349c94b998101919f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+749203ebaaf03b2c70032365a2479735140ad28a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiEmpleadosMultiplesRoutes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiEmpleadosMultiplesRoutes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

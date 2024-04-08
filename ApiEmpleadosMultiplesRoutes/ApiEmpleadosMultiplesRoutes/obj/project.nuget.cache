@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MIcO5406X1U3ki/eBHkMVvgrry77KsL0AQckcOiRekA+gxPDGHqimQD8l4ZZi7BXA52m9K+6f1kVtvMlDePvXA==",
+  "dgSpecHash": "Tb6xT0LsTtb66+vOhONJQxeQPeHCMD4Wtm0SqA6o/MaUcg8FrQNN7plDf72gsWPX+/sDs35oLmpC2gF4Ixm+1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\ApiEmpleadosMultiplesRoutes\\ApiEmpleadosMultiplesRoutes\\ApiEmpleadosMultiplesRoutes.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\nugetapimodelsalejo\\1.0.0\\nugetapimodelsalejo.1.0.0.nupkg.sha512",
     "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

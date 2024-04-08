@@ -1,7 +1,7 @@
-﻿using ApiEmpleadosMultiplesRoutes.Models;
-using ApiEmpleadosMultiplesRoutes.Repositories;
+﻿using ApiEmpleadosMultiplesRoutes.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NugetApiModels.Models;
 
 namespace ApiEmpleadosMultiplesRoutes.Controllers
 {

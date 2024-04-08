@@ -1,6 +1,6 @@
 ﻿using ApiEmpleadosMultiplesRoutes.Data;
-using ApiEmpleadosMultiplesRoutes.Models;
 using Microsoft.EntityFrameworkCore;
+using NugetApiModels.Models;
 
 namespace ApiEmpleadosMultiplesRoutes.Repositories
 {
@@ -37,9 +37,6 @@ namespace ApiEmpleadosMultiplesRoutes.Repositories
         {
             return await this.context.Empleados
                 .Select(e => e.Oficio).Distinct().ToListAsync();
-            var consulta = (from datos in this.context.Empleados
-                            select datos.Oficio).Distinct();
-            return await consulta.ToListAsync();
         }
 
         public async Task<List<Empleado>>

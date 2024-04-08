@@ -604,6 +604,15 @@
           }
         }
       },
+      "NugetApiModelsAlejo/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/NugetApiModels.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/NugetApiModels.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -2196,6 +2205,18 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NugetApiModelsAlejo/1.0.0": {
+      "sha512": "4BgyJQcKnY/4FYcWHXta+MoD/C/jViK5c1kMz5Htx0RULWSOena2+cHE1MkOJnBDH7tFJJDiipK5WS6t8222QA==",
+      "type": "package",
+      "path": "nugetapimodelsalejo/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net7.0/NugetApiModels.dll",
+        "nugetapimodelsalejo.1.0.0.nupkg.sha512",
+        "nugetapimodelsalejo.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.5.0": {
       "sha512": "FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
       "type": "package",
@@ -3155,6 +3176,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.14",
       "Microsoft.EntityFrameworkCore >= 7.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.17",
+      "NugetApiModelsAlejo >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3208,6 +3230,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.17, )"
+          },
+          "NugetApiModelsAlejo": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
