@@ -39,7 +39,7 @@ namespace ApiEmpleadosMultiplesRoutes.Controllers
         }
 
         [HttpGet]
-        [Route("Oficio/{oficio}")]
+        [Route("EmpleadosOficio/{oficio}")]
         public async Task<ActionResult<List<Empleado>>>
             GetEmpleadosOficio(string oficio)
         {
