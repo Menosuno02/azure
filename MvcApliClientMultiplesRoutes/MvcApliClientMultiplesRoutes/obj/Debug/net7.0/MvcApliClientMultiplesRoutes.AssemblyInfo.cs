@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcApliClientMultiplesRoutes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c01bbfc3619b459c0dd913c0ed8439ae952c6397")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103823652efba9b98c6345b57845b03c224bfe6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcApliClientMultiplesRoutes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcApliClientMultiplesRoutes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

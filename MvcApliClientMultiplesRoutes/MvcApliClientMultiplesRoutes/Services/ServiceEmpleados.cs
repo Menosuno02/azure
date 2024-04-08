@@ -31,10 +31,10 @@ namespace MvcApliClientMultiplesRoutes.Services
             return oficios;
         }
 
-        public async Task<List<Empleado>> GetEmpleadosOficio
+        public async Task<List<Empleado>> GetEmpleadosOficioAsync
             (string oficio)
         {
-            string request = "api/empleados/empleadospficio/" + oficio;
+            string request = "api/empleados/empleadosoficio/" + oficio;
             List<Empleado> empleados =
                 await this.CallApiAsync<List<Empleado>>(request);
             return empleados;
