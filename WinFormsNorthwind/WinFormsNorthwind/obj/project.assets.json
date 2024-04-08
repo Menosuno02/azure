@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "AirportsNugetALL/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "lib/net7.0/AirportsNugetALL.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/AirportsNugetALL.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NorthwindCustomersALL/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "lib/net7.0/NorthwindCustomersALL.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/NorthwindCustomersALL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AirportsNugetALL/1.0.0": {
+      "sha512": "nQO6gG5ICyjCl3OrZVNAqxYCQJeYeLe2bmuEe0Gmb6yMsymZcFwrTNTw1PYNTWmRgwDvm3V/CRKoVqNT6xyRVg==",
+      "type": "package",
+      "path": "airportsnugetall/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "airportsnugetall.1.0.0.nupkg.sha512",
+        "airportsnugetall.nuspec",
+        "gato3.jpeg",
+        "lib/net7.0/AirportsNugetALL.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NorthwindCustomersALL/2.0.0": {
+      "sha512": "AK9nYq3bO3RNwbm31R3GkVRY/cBloQ71P3UL3h8guGvGDF2IeDa98BTQMxJVBT9AKPxWmDlDkIuFj+maEgpOiA==",
+      "type": "package",
+      "path": "northwindcustomersall/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gato2.jpg",
+        "lib/net7.0/NorthwindCustomersALL.dll",
+        "northwindcustomersall.2.0.0.nupkg.sha512",
+        "northwindcustomersall.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "AirportsNugetALL >= 1.0.0",
+      "NorthwindCustomersALL >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\WinFormsNorthwind\\WinFormsNorthwind\\WinFormsNorthwind.csproj",
+      "projectName": "WinFormsNorthwind",
+      "projectPath": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\WinFormsNorthwind\\WinFormsNorthwind\\WinFormsNorthwind.csproj",
+      "packagesPath": "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\WinFormsNorthwind\\WinFormsNorthwind\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Alumnos MCSD Mañana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "AirportsNugetALL": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "NorthwindCustomersALL": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

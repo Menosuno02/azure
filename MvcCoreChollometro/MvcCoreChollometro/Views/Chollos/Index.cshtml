@@ -1,0 +1,24 @@
+﻿@model List<Chollo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Web Job Chollometro</h1>
+
+<h2 class="text-primary">
+    Num chollos: @ViewData["ELEMENTOS"]
+</h2>
+
+@foreach (var item in Model)
+{
+    <div class="p-3 border my-2 mx-0">
+        <a href="@item.Link">
+            <h3>@item.Titulo</h3>
+        </a>
+        <h5>@item.Fecha</h5>
+        <div style="width: 400px">
+            @Html.Raw(item.Descripcion)
+        </div>
+    </div>
+}

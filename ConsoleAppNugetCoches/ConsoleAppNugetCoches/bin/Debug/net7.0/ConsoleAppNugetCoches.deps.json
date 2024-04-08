@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ConsoleAppNugetCoches/1.0.0": {
+        "dependencies": {
+          "NugetCochesAlejo": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppNugetCoches.dll": {}
+        }
+      },
+      "NugetCochesAlejo/1.0.0": {
+        "runtime": {
+          "lib/net7.0/ProyectoNugetCoches.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppNugetCoches/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NugetCochesAlejo/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6uCBqKK7dufe/Tzbz3wD3yfFhMN8yn50UNWYrvjaUzChNCTlQ6mdCIW9MxTljfP3+UWM1iwryTfG8MdDMMNGMw==",
+      "path": "nugetcochesalejo/1.0.0",
+      "hashPath": "nugetcochesalejo.1.0.0.nupkg.sha512"
+    }
+  }
+}

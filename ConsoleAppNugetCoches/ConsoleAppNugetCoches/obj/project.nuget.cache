@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tftS3QtHlMeNgzubt+6url+fGDxouKxpX+inKQGUctTeqZQDJvJdT5yUD//UpNA4vORXI7VmIT7L7kQbqVy/4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\ConsoleAppNugetCoches\\ConsoleAppNugetCoches\\ConsoleAppNugetCoches.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\nugetcochesalejo\\1.0.0\\nugetcochesalejo.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

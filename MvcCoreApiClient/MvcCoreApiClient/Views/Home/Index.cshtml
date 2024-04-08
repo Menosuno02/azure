@@ -1,0 +1,44 @@
+﻿<div class="text-center">
+    <h1 class="display-4">Api Client NET Core</h1>
+    <button id="botonload" class="btn btn-info mt-3">
+        Load API Personas
+    </button>
+    <table class="table table-borderless mt-3" id="tablapersonas">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $("#botonload").click(function () {
+                var url = "https://apicorepersonasalejo.azurewebsites.net/api/personas";
+                $.ajax({
+                    url: url,
+                    method: "GET",
+                    success: function (data) {
+                        var html = "";
+                        $.each(data, function (index, persona) {
+                            html += "<tr>";
+                            html += "<td>" + persona.idPersona + "</td>";
+                            html += "<td>" + persona.nombre + "</td>";
+                            html += "<td>" + persona.email + "</td>";
+                            html += "<td>" + persona.edad + "</td>";
+                            html += "<tr>";
+                        });
+                        $("#tablapersonas tbody").html(html);
+                    }
+                });
+            });
+        });
+    </script>
+}

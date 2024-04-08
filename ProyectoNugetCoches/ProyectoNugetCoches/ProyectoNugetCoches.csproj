@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>NugetCochesAlejo</PackageId>
+    <Title>Nuget de coches de Jueves</Title>
+    <Authors>Alejo,Menosuno02</Authors>
+    <Description>Proyecto Nuget</Description>
+    <PackageIcon>gato.jpg</PackageIcon>
+    <PackageTags>coches,cars</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\gato.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

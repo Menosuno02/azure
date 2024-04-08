@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNugetCoches", "ConsoleAppNugetCoches\ConsoleAppNugetCoches.csproj", "{A76DDD80-586E-4A70-903A-821AF25B7A09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A76DDD80-586E-4A70-903A-821AF25B7A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76DDD80-586E-4A70-903A-821AF25B7A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76DDD80-586E-4A70-903A-821AF25B7A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76DDD80-586E-4A70-903A-821AF25B7A09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80E1CED-142A-4C17-AD1E-771678984D6A}
+	EndGlobalSection
+EndGlobal

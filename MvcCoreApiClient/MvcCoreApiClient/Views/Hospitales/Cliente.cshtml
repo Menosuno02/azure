@@ -1,0 +1,41 @@
+﻿<h1 class="text-primary">
+    API Hospitales Cliente
+</h1>
+
+<table class="table table-borderless" id="tablahospitales">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Camas</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(function () {
+            var urlApi =
+                "https://apinetcorehospitales2024alejo.azurewebsites.net/";
+            var request = "api/Hospitales";
+            $.ajax({
+                url: urlApi + request,
+                method: "GET",
+                success: function (data) {
+                    var html = "";
+                    $.each(data, function (index, hospital) {
+                        html += "<tr>";
+                        html += "<td>" + hospital.nombre + "</td>";
+                        html += "<td>" + hospital.direccion + "</td>";
+                        html += "<td>" + hospital.telefono + "</td>";
+                        html += "<td>" + hospital.camas + "</td>";
+                        html += "<tr>";
+                    });
+                    $("#tablahospitales tbody").html(html);
+                }
+            });
+        });
+    </script>
+}

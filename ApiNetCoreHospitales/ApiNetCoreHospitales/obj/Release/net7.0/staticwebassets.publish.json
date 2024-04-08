@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "o90jr9IU+8U+laYazckoTWS0BWzpfDeTutlK6D6K4fU=",
+  "Source": "ApiNetCoreHospitales",
+  "BasePath": "_content/ApiNetCoreHospitales",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

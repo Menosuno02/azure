@@ -1,0 +1,6 @@
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\WCFLogicaEscenasPelis\WCFLogicaEscenasPelis\bin\Release\WCFLogicaEscenasPelis.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\WCFLogicaEscenasPelis\WCFLogicaEscenasPelis\bin\Release\WCFLogicaEscenasPelis.pdb
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\WCFLogicaEscenasPelis\WCFLogicaEscenasPelis\obj\Release\WCFLogicaEscenasPelis.csproj.AssemblyReference.cache
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\WCFLogicaEscenasPelis\WCFLogicaEscenasPelis\obj\Release\WCFLogicaEscenasPelis.csproj.CoreCompileInputs.cache
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\WCFLogicaEscenasPelis\WCFLogicaEscenasPelis\obj\Release\WCFLogicaEscenasPelis.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\WCFLogicaEscenasPelis\WCFLogicaEscenasPelis\obj\Release\WCFLogicaEscenasPelis.pdb

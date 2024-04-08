@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AirportsNugetALL/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net7.0/AirportsNugetALL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "NorthwindCustomersALL/2.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net7.0/NorthwindCustomersALL.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AirportsNugetALL/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nQO6gG5ICyjCl3OrZVNAqxYCQJeYeLe2bmuEe0Gmb6yMsymZcFwrTNTw1PYNTWmRgwDvm3V/CRKoVqNT6xyRVg==",
+      "path": "airportsnugetall/1.0.0",
+      "hashPath": "airportsnugetall.1.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "NorthwindCustomersALL/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AK9nYq3bO3RNwbm31R3GkVRY/cBloQ71P3UL3h8guGvGDF2IeDa98BTQMxJVBT9AKPxWmDlDkIuFj+maEgpOiA==",
+      "path": "northwindcustomersall/2.0.0",
+      "hashPath": "northwindcustomersall.2.0.0.nupkg.sha512"
+    }
+  }
+}

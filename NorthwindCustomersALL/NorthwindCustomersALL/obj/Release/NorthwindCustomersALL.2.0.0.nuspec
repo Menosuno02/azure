@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthwindCustomersALL</id>
+    <version>2.0.0</version>
+    <title>Northwind Customers</title>
+    <authors>NorthwindCustomersALL</authors>
+    <icon>gato2.jpg</icon>
+    <description>Paquete Customers Northwind no se que</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\NorthwindCustomersALL\NorthwindCustomersALL\bin\Release\net7.0\NorthwindCustomersALL.dll" target="lib\net7.0\NorthwindCustomersALL.dll" />
+    <file src="C:\Users\Alumnos MCSD Mañana\Downloads\gato2.jpg" target="\gato2.jpg" />
+  </files>
+</package>

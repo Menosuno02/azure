@@ -1,0 +1,100 @@
+﻿<div style="background-color: #121123; color: white">
+    <div class="row">
+        <div class="col-md-12 p-4">
+            <!-- Contenido de Top Comments y Tarjetas -->
+            <h2 style="text-align: start; color:#ffbade">Top Comments</h2>
+            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4">
+                <div>
+                    <img src="https://i.pinimg.com/originals/7f/41/81/7f4181df32d32a18ab81cbb72d6de52f.png"
+                         class="img-fluid w-100" alt="Imagen" style="margin-right: 0;" />
+                </div>
+                @for (int i = 1; i <= 2; i++)
+                {
+                    <div class="container-fluid d-md-flex align-items-stretch">
+                        <div class="mt-2">
+                            <a class="text-decoration-none" asp-action="PanelUser" asp-controller="Users" asp-route-idUser="1">
+                                <div class="card h-100 w-100 align-items-stretch rounded-lg shadow-sm text-light" style="background-color: #31304c; border: none;">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-5 col-md-4 d-flex align-items-center">
+                                                <img class="img-fluid rounded-circle col-6 col-md-10 mx-auto d-block"
+                                                     src="https://i.pinimg.com/originals/7f/41/81/7f4181df32d32a18ab81cbb72d6de52f.png" />
+                                            </div>
+                                            <div class="col-sm-7 col-md-8 mt-sm-0 mt-3 d-flex flex-column align-items-center align-items-sm-start justify-content-sm-center">
+                                                <span class="fs-5 fw-bold">Alexia</span>
+                                                <span class="fs-5">9.00</span>
+                                            </div>
+                                        </div>
+                                        <h5 class="card-title fw-bold mt-4 mb-1">
+                                            Titulo
+                                        </h5>
+                                        <small style="opacity: 60%">14/03/2024</small>
+                                        <p class="card-text mt-2">
+                                            Comentario
+                                        </p>
+                                        <div class="row mt-3">
+                                            <div class="d-flex justify-content-end">
+                                                <svg style="width: 25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                                                    <path d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z" />
+                                                </svg>
+                                                <span class="fw-bold ms-1">17</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                }
+                <div class="container-fluid">
+                    <div class="mt-2">
+                        <a class="text-decoration-none" asp-action="PanelUser" asp-controller="Users" asp-route-idUser="1">
+                            <div class="card  rounded-lg shadow-sm text-light" style="background-color: #31304c; border: none;">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-5 col-md-4 d-flex align-items-center">
+                                            <img class="img-fluid rounded-circle col-6 col-md-10 mx-auto d-block"
+                                                 src="https://i.pinimg.com/originals/7f/41/81/7f4181df32d32a18ab81cbb72d6de52f.png" />
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 mt-sm-0 mt-3 d-flex flex-column align-items-center align-items-sm-start justify-content-sm-center">
+                                            <span class="fs-5 fw-bold">Alexia</span>
+                                            <span class="fs-5">9.00</span>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title fw-bold mt-4 mb-1">
+                                        Titulo
+                                    </h5>
+                                    <small style="opacity: 60%">14/03/2024</small>
+                                    <p class="card-text mt-2">
+                                        Comentarioaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                    </p>
+                                    <div class="row mt-3">
+                                        <div class="d-flex justify-content-end">
+                                            <svg style="width: 25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                                                <path d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z" />
+                                            </svg>
+                                            <span class="fw-bold ms-1">17</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-10">
+                <p>MrLopoti <span>14/03/2024</span></p>
+                <p>0.00</p>
+                <p>Titulo Comentario</p>
+                <persist-component-state />
+            </div>
+        </div>
+    </div>
+</div>
