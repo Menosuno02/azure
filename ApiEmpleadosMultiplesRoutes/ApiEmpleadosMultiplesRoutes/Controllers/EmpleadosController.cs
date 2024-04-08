@@ -39,11 +39,22 @@ namespace ApiEmpleadosMultiplesRoutes.Controllers
         }
 
         [HttpGet]
-        [Route("oficio/{oficio}")]
+        [Route("Oficio/{oficio}")]
         public async Task<ActionResult<List<Empleado>>>
             GetEmpleadosOficio(string oficio)
         {
             return await this.repo.GetEmpleadosOficioAsync(oficio);
+        }
+
+        // Los parámetros deben tener el mismo nombre
+        // Deben estar en el mismo orden que recibe el método
+        [HttpGet]
+        [Route("[action]/{salario}/{iddepartamento}")]
+        public async Task<ActionResult<List<Empleado>>>
+            EmpleadosSalario(int salario, int iddepartamento)
+        {
+            return await this.repo.GetEmpleadosSalarioAsync
+                (salario, iddepartamento);
         }
     }
 }
