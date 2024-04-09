@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcClienteApiCrudDepartamentos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad969ff50d1853f3e81d91097745f33556492207")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ccf7888eb712576afed874bf0d28a5910adb21")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcClienteApiCrudDepartamentos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcClienteApiCrudDepartamentos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

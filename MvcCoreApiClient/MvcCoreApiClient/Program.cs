@@ -3,6 +3,7 @@ using MvcCoreApiClient.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddTransient<ServiceHospital>();
+builder.Services.AddTransient<ServiceDoctores>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

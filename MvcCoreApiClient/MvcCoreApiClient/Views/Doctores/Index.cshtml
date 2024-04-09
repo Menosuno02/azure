@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MvcCoreApiClient.Models.Doctor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HospitalCod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Especialidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HospitalCod)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DoctorNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Especialidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salario)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.DoctorNo }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.DoctorNo }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.DoctorNo })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
