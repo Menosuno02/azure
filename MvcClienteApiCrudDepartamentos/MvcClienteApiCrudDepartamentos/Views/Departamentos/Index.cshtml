@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MvcClienteApiCrudDepartamentos.Models.Departamento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-primary">
+    API CRUD Departamentos Server
+</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DeptNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Localidad)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeptNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Localidad)
+                </td>
+                <td>
+                    <a asp-controller="Departamentos"
+                       asp-action="Details"
+                       asp-route-id="@item.DeptNo"
+                       class="btn btn-primary">
+                        Details
+                    </a>
+                    <a asp-controller="Departamentos"
+                       asp-action="Edit"
+                       asp-route-id="@item.DeptNo"
+                       class="btn btn-warning">
+                        Edit
+                    </a>
+                    <a asp-controller="Departamentos"
+                       asp-action="Delete" asp-route-id="@item.DeptNo"
+                       class="btn btn-danger">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,83 @@
+﻿@section Scripts {
+    <script src="~/js/serviceapidepartamentos.js"></script>
+    <script>
+
+        $(function () {
+            loadDepartamentos();
+            $("#botoninsert").on("click", function () {
+                let id = parseInt($("#cajaid").val());
+                let nombre = $("#cajanombre").val();
+                let localidad = $("#cajalocalidad").val();
+                insertDepartamentoAsync(id, nombre, localidad, function () {
+                    loadDepartamentos();
+                });
+            });
+
+            $("#botonupdate").on("click", function () {
+                let id = parseInt($("#cajaid").val());
+                let nombre = $("#cajanombre").val();
+                let localidad = $("#cajalocalidad").val();
+                updateDepartamentoAsync(id, nombre, localidad, function () {
+                    loadDepartamentos();
+                });
+            });
+
+            $("#botondelete").on("click", function () {
+                let id = $("#cajaid").val();
+                deleteDepartamentoAsync(id, function () {
+                    loadDepartamentos();
+                });
+            });
+        });
+
+
+
+        function loadDepartamentos() {
+            getJsonDepartamentosAsync(function (data) {
+                let html = "";
+                $.each(data, function (index, dept) {
+                    html += "<tr>";
+                    html += "<td>" + dept.deptNo + "</td>";
+                    html += "<td>" + dept.nombre + "</td>";
+                    html += "<td>" + dept.localidad + "</td>";
+                    html += "</tr>";
+                });
+                $("#tabladepartamentos tbody").html(html);
+            });
+        }
+    </script>
+}
+
+<h1 class="text-primary">
+    API CRUD Departamentos
+</h1>
+
+<label class="form-label mt-3">ID Departamento</label>
+<input type="text" id="cajaid" class="form-control" />
+<label class="form-label mt-3">Nombre</label>
+<input type="text" id="cajanombre" class="form-control" />
+<label class="form-label mt-3">Localidad</label>
+<input type="text" id="cajalocalidad" class="form-control" />
+
+<button class="btn btn-dark mt-3" id="botoninsert">
+    Insertar
+</button>
+<button class="btn btn-info mt-3" id="botonupdate">
+    Update
+</button>
+<button class="btn btn-danger mt-3" id="botondelete">
+    Delete
+</button>
+
+<hr />
+
+<table class="table-borderless mt-3 table" id="tabladepartamentos">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Localidad</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
