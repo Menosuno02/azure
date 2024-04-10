@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcCoreApiClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ccf7888eb712576afed874bf0d28a5910adb21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37cd838f9e049410bc8f5760800fccf5e518c747")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcCoreApiClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcCoreApiClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+﻿<h1 class="text-primary">
+    Bienvenido, @UserManager.GetUserName(User) Microsoft
+</h1>
+
+<ul class="list-group">
+    @foreach (var claim in User.Claims)
+    {
+        <li class="list-group-item">
+            @claim.Type: @claim.Value
+        </li>
+    }
+</ul>
