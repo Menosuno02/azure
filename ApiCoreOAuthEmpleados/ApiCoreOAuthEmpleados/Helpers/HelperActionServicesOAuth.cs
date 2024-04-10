@@ -7,9 +7,9 @@ namespace ApiCoreOAuthEmpleados.Helpers
 {
     public class HelperActionServicesOAuth
     {
-        private string Issuer { get; set; }
-        private string Audience { get; set; }
-        private string SecretKey { get; set; }
+        public string Issuer { get; set; }
+        public string Audience { get; set; }
+        public string SecretKey { get; set; }
 
         public HelperActionServicesOAuth
             (IConfiguration configuration)
@@ -49,7 +49,7 @@ namespace ApiCoreOAuthEmpleados.Helpers
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = this.Issuer,
                     ValidAudience = this.Audience,
-                    IssuerSigningKey = this.GetKeyToken()
+                    IssuerSigningKey = this.GetKeyToken(),
                 };
             });
             return options;
