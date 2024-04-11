@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcApiClientOAuth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e37bf509988d2a1b594fabbda2aa30202a2f7439")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+841a5f277d9b5f93a883826b0788d8f693c184e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcApiClientOAuth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcApiClientOAuth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
