@@ -15,11 +15,11 @@ namespace ApiCoreOAuthEmpleados.Helpers
             (IConfiguration configuration)
         {
             this.Issuer = configuration.GetValue<string>("ApiOAuth:Issuer");
-            this.Audience = configuration.GetValue<string>("ApiOAuth:Audiente");
+            this.Audience = configuration.GetValue<string>("ApiOAuth:Audience");
             this.SecretKey = configuration.GetValue<string>("ApiOAuth:SecretKey");
         }
 
-        // Necesitamos un método para generar 
+        // Necesitamos un método   para generar 
         // el token que se basa en el secret key
         public SymmetricSecurityKey GetKeyToken()
         {
