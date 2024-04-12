@@ -32,5 +32,12 @@ namespace ApiCoreOAuthEmpleados.Repositories
                 && e.IdEmpleado == idEmpleado)
                 .FirstOrDefaultAsync();
         }
+
+        public async Task<List<Empleado>> GetCompisDepartamento(int idDepartamento)
+        {
+            return await this.context.Empleados
+                .Where(e => e.IdDepartamento == idDepartamento)
+                .ToListAsync();
+        }
     }
 }

@@ -41,6 +41,9 @@ namespace MvcApiClientOAuth.Controllers
                 identity.AddClaim(new Claim(ClaimTypes.Name, model.UserName));
                 // Almacenamos el ID del usuario
                 identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, model.Password));
+
+                identity.AddClaim(new Claim("TOKEN", token));
+
                 ClaimsPrincipal userPrincipal =
                     new ClaimsPrincipal(identity);
                 // Damos de alta al usuario indicando que estará

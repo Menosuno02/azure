@@ -4,6 +4,8 @@ using MvcApiClientOAuth.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddTransient<ServiceApiEmpleados>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using MvcApiClientOAuth.Filters;
 using MvcApiClientOAuth.Models;
 using MvcApiClientOAuth.Services;
+using System.Security.Claims;
 
 namespace MvcApiClientOAuth.Controllers
 {
@@ -27,19 +28,32 @@ namespace MvcApiClientOAuth.Controllers
         [AuthorizeEmpleados]
         public async Task<IActionResult> Details(int id)
         {
-            // Tendremos el token en Session
-            string token = HttpContext.Session.GetString("TOKEN");
-            if (token == null)
-            {
-                ViewData["MENSAJE"] = "Debe validarse en Login";
-                return View();
-            }
-            else
-            {
-                Empleado empleado =
-                await this.service.FindEmpleadoAsync(id, token);
-                return View(empleado);
-            }
+            Empleado empleado =
+                await this.service.FindEmpleadoAsync(id);
+            return View(empleado);
+        }
+
+        // Metodo en el API
+        [AuthorizeEmpleados]
+        public async Task<Empleado> Perfil()
+        {
+            // Este método estará protegido y debe recibir el token
+            // Lo que debemos hacer es extraer el usuario del
+            // propio token
+            return null;
+        }
+
+        [AuthorizeEmpleados]
+        public async Task<IActionResult> CompisCurro()
+        {
+            // Necesito el ID del departamento
+            var data =
+                HttpContext.User.FindFirst
+                (x => x.Type == "IDDEPARTAMENTO").Value;
+            int idDepartamento = int.Parse(data);
+            Empleado empleado = await
+                    this.service.FindCompisAsync(idDepartamento);
+            return View(empleado);
         }
     }
 }
