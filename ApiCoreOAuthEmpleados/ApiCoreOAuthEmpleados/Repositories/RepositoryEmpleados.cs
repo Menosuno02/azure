@@ -39,5 +39,33 @@ namespace ApiCoreOAuthEmpleados.Repositories
                 .Where(e => e.IdDepartamento == idDepartamento)
                 .ToListAsync();
         }
+
+        public async Task<List<string>> GetOficiosAsync()
+        {
+            var consulta = (from datos in this.context.Empleados
+                            select datos.Oficio).Distinct();
+            return await consulta.ToListAsync();
+        }
+
+        public async Task<List<Empleado>> GetEmpleadosOficiosAsync
+            (List<string> oficios)
+        {
+            var consulta = from datos in this.context.Empleados
+                           where oficios.Contains(datos.Oficio)
+                           select datos;
+            return await consulta.ToListAsync();
+        }
+
+        public async Task IncrementarSalarioEmpleadosOficiosAsync
+            (int incremento, List<string> oficios)
+        {
+            List<Empleado> empleados =
+                await this.GetEmpleadosOficiosAsync(oficios);
+            foreach (Empleado emp in empleados)
+            {
+                emp.Salario += incremento;
+            }
+            await this.context.SaveChangesAsync();
+        }
     }
 }

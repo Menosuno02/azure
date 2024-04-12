@@ -70,3 +70,4 @@ C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiCoreOAuthEmpleados\ApiCoreOAut
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiCoreOAuthEmpleados\ApiCoreOAuthEmpleados\obj\Release\net8.0\ApiCoreOAuthEmpleados.pdb
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiCoreOAuthEmpleados\ApiCoreOAuthEmpleados\obj\Release\net8.0\ApiCoreOAuthEmpleados.genruntimeconfig.cache
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiCoreOAuthEmpleados\ApiCoreOAuthEmpleados\obj\Release\net8.0\ref\ApiCoreOAuthEmpleados.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiCoreOAuthEmpleados\ApiCoreOAuthEmpleados\bin\Release\net8.0\Newtonsoft.Json.dll

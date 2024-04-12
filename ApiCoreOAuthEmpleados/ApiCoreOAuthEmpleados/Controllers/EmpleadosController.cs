@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Runtime.InteropServices;
 using System.Security.Claims;
 
 namespace ApiCoreOAuthEmpleados.Controllers
@@ -62,6 +63,41 @@ namespace ApiCoreOAuthEmpleados.Controllers
             Empleado empleado = JsonConvert.DeserializeObject<Empleado>(jsonEmpleado);
             List<Empleado> compis = await this.repo.GetCompisDepartamento(empleado.IdDepartamento);
             return compis;
+        }
+
+        // localhost://api/multiplesdatos?ids=11&ids=74&ids=99
+        [HttpGet]
+        [Route("[action]")]
+        public async Task<ActionResult>
+            MultiplesDatos([FromQuery] List<int> ids)
+        {
+            return Ok();
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public async Task<ActionResult<List<string>>> Oficios()
+        {
+            return await this.repo.GetOficiosAsync();
+        }
+
+        //?oficio=dato&oficio=dato2
+        [HttpGet]
+        [Route("[action]")]
+        public async Task<ActionResult<List<Empleado>>>
+            EmpleadosOficios([FromQuery] List<string> oficio)
+        {
+            return await this.repo.GetEmpleadosOficiosAsync(oficio);
+        }
+
+        //localhost/api/Update/25?oficio=Dato
+        [HttpPut]
+        [Route("[action]/{incremento}")]
+        public async Task<ActionResult> IncrementarSalarioOficios
+            (int incremento, [FromQuery] List<string> oficio)
+        {
+            await this.repo.IncrementarSalarioEmpleadosOficiosAsync(incremento, oficio);
+            return Ok();
         }
     }
 }

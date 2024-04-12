@@ -17,7 +17,6 @@ namespace MvcApiClientOAuth.Controllers
             this.service = service;
         }
 
-        [AuthorizeEmpleados]
         public async Task<IActionResult> Index()
         {
             List<Empleado> empleados =
@@ -25,7 +24,6 @@ namespace MvcApiClientOAuth.Controllers
             return View(empleados);
         }
 
-        [AuthorizeEmpleados]
         public async Task<IActionResult> Details(int id)
         {
             Empleado empleado =
@@ -33,27 +31,20 @@ namespace MvcApiClientOAuth.Controllers
             return View(empleado);
         }
 
-        // Metodo en el API
         [AuthorizeEmpleados]
-        public async Task<Empleado> Perfil()
+        public async Task<IActionResult> Perfil()
         {
-            // Este método estará protegido y debe recibir el token
-            // Lo que debemos hacer es extraer el usuario del
-            // propio token
-            return null;
+            Empleado empleado =
+                await this.service.GetPerfilEmpleadoAsync();
+            return View(empleado);
         }
 
         [AuthorizeEmpleados]
-        public async Task<IActionResult> CompisCurro()
+        public async Task<IActionResult> Compis()
         {
-            // Necesito el ID del departamento
-            var data =
-                HttpContext.User.FindFirst
-                (x => x.Type == "IDDEPARTAMENTO").Value;
-            int idDepartamento = int.Parse(data);
-            Empleado empleado = await
-                    this.service.FindCompisAsync(idDepartamento);
-            return View(empleado);
+            List<Empleado> empleados =
+                await this.service.GetCompisTrabajoAsync();
+            return View(empleados);
         }
     }
 }

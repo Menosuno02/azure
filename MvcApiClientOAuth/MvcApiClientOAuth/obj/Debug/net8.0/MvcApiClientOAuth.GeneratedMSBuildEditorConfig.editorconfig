@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\MvcApiClientOAuth\MvcApiClientOAuth
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcApiClientOAuth/MvcApiClientOAuth/Views/Empleados/Compis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXENvbXBpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcApiClientOAuth/MvcApiClientOAuth/Views/Empleados/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcApiClientOAuth/MvcApiClientOAuth/Views/Empleados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcApiClientOAuth/MvcApiClientOAuth/Views/Empleados/Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXFBlcmZpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcApiClientOAuth/MvcApiClientOAuth/Views/Home/Index.cshtml]

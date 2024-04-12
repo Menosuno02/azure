@@ -110,15 +110,36 @@ namespace MvcApiClientOAuth.Services
             return empleados;
         }
 
-        // Método protegido
         public async Task<Empleado> FindEmpleadoAsync
             (int idEmpleado)
         {
-            string token = HttpContextAccessor.HttpContext.User.FindFirst(x => x.Type == "TOKEN").Value;
             string request = "api/Empleados/" + idEmpleado;
             Empleado empleado = await
-                this.CallApiAsync<Empleado>(request, token);
+                this.CallApiAsync<Empleado>(request);
             return empleado;
         }
+
+        public async Task<Empleado> GetPerfilEmpleadoAsync()
+        {
+            string token =
+                this.HttpContextAccessor.HttpContext.User
+                .FindFirst(x => x.Type == "TOKEN").Value;
+            string request = "api/empleados/perfilempleado";
+            Empleado empleado =
+                await this.CallApiAsync<Empleado>(request, token);
+            return empleado;
+        }
+
+        public async Task<List<Empleado>>
+            GetCompisTrabajoAsync()
+        {
+            string token = this.HttpContextAccessor.HttpContext.User
+                .FindFirst(x => x.Type == "TOKEN").Value;
+            string request = "api/empleados/compiscurro";
+            List<Empleado> compis = await this.CallApiAsync<List<Empleado>>(request, token);
+            return compis;
+        }
+
+        
     }
 }
