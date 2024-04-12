@@ -46,5 +46,33 @@ namespace MvcApiClientOAuth.Controllers
                 await this.service.GetCompisTrabajoAsync();
             return View(empleados);
         }
+
+        public async Task<IActionResult> EmpleadosOficios()
+        {
+            List<string> oficios =
+                await this.service.GetOficiosAsync();
+            ViewData["OFICIOS"] = oficios;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult>
+            EmpleadosOficios(int? incremento
+            , List<string> oficio, string accion)
+        {
+            List<string> oficios =
+                await this.service.GetOficiosAsync();
+            ViewData["OFICIOS"] = oficios;
+            if (accion.ToLower() == "update")
+            {
+                await this.service
+                    .UpdateEmpleadosOficiosAsync
+                    (incremento.Value, oficio);
+            }
+            List<Empleado> empleados =
+                await this.service.GetEmpleadosOficiosAsync
+                (oficio);
+            return View(empleados);
+        }
     }
 }

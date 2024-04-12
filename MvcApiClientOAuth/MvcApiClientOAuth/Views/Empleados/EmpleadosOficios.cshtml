@@ -1,0 +1,72 @@
+﻿@model IEnumerable<MvcApiClientOAuth.Models.Empleado>
+
+@{
+    List<string> oficios =
+            ViewData["OFICIOS"] as List<string>;
+}
+
+@{
+    ViewData["Title"] = "EmpleadosOficios";
+}
+
+<h1>Empleados Oficios</h1>
+
+<form method="post">
+    <label>Seleccione oficios</label>
+    <select name="oficio" size="5" multiple class="form-control">
+        @foreach (string ofi in oficios)
+        {
+            <option value="@ofi">@ofi</option>
+        }
+    </select>
+    <label>Incremento salarial</label>
+    <input type="text" name="incremento" class="form-control" />
+    <button class="btn btn-outline-dark" name="accion" value="read">
+        Mostrar empleados
+    </button>
+    <button class="btn btn-warning" name="accion" value="update">
+        Incrementar salarios
+    </button>
+</form>
+
+
+@if (Model != null)
+{
+    <table class="table-borderless table-info table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Apellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Oficio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Salario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdDepartamento)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Apellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Oficio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Salario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdDepartamento)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
