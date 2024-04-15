@@ -1,0 +1,18 @@
+﻿<h1 class="text-primary">
+    Create container
+</h1>
+
+<p>
+    <a asp-controller="AzureBlobs"
+       asp-action="ListContainers">
+        Back to List
+    </a>
+</p>
+
+<form method="post">
+    <label class="form-label">Nombre del contenedor</label>
+    <input type="text" class="form-control" name="containername" />
+    <button class="btn btn-info mt-3">
+        Crear container
+    </button>
+</form>

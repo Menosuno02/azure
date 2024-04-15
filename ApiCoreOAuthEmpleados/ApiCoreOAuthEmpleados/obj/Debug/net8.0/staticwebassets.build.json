@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "utk5lqX38TyrGjrjcNjGA3LftVjfjdJaMiiRAnjbjH4=",
+  "Hash": "WaqBQnAKZbwSnbxhhbu96A9pXd+NyP65dC2/ODImWB4=",
   "Source": "ApiCoreOAuthEmpleados",
   "BasePath": "_content/ApiCoreOAuthEmpleados",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiCoreOAuthEmpleados\\wwwroot",
+      "Source": "ApiCoreOAuthEmpleados",
+      "ContentRoot": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\ApiCoreOAuthEmpleados\\ApiCoreOAuthEmpleados\\wwwroot\\",
+      "BasePath": "_content/ApiCoreOAuthEmpleados",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\ApiCoreOAuthEmpleados\\ApiCoreOAuthEmpleados\\wwwroot\\css\\monokai_theme.css",
+      "SourceId": "ApiCoreOAuthEmpleados",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\ApiCoreOAuthEmpleados\\ApiCoreOAuthEmpleados\\wwwroot\\",
+      "BasePath": "_content/ApiCoreOAuthEmpleados",
+      "RelativePath": "css/monokai_theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\monokai_theme.css"
+    }
+  ]
 }

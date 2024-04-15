@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCoreOAuthEmpleados</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCoreOAuthEmpleados.Controllers.EmpleadosController.GetEmpleados">
+            <summary>
+            Obtiene el conjunto de empleados, tabla EMP.
+            </summary>
+            <remarks>
+            Método para devolver todos los empleados de la BBDD
+            </remarks>
+            <response code="200">OK. Devuelve el objeto solicitado.</response> 
+        </member>
+        <member name="M:ApiCoreOAuthEmpleados.Controllers.EmpleadosController.FindEmpleado(System.Int32)">
+            <summary>
+            Obtiene una Empleado por su Id, tabla EMP.
+            </summary>
+            <remarks>
+            Permite buscar un objeto Empleado por su ID
+            </remarks>
+            <param name="idempleado">Id (GUID) del objeto Empleado.</param>
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+    </members>
+</doc>

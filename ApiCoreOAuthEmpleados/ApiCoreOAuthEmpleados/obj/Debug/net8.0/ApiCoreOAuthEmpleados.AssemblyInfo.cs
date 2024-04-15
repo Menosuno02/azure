@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCoreOAuthEmpleados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1633c1228454a682fa9211c583f05819e638595e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8eeef2e85f388fb58219a19ce8f86fde9dbe94b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCoreOAuthEmpleados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCoreOAuthEmpleados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
