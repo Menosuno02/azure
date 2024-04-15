@@ -22,8 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXp1cmVCbG9ic1xDcmVhdGVDb250YWluZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcCoreAzureStorage/MvcCoreAzureStorage/Views/AzureBlobs/ListBlobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXp1cmVCbG9ic1xMaXN0QmxvYnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcCoreAzureStorage/MvcCoreAzureStorage/Views/AzureBlobs/ListContainers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXp1cmVCbG9ic1xMaXN0Q29udGFpbmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcCoreAzureStorage/MvcCoreAzureStorage/Views/AzureBlobs/UploadBlob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXp1cmVCbG9ic1xVcGxvYWRCbG9iLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcCoreAzureStorage/MvcCoreAzureStorage/Views/AzureFiles/Index.cshtml]

@@ -19,6 +19,18 @@
             @container
             <div>
                 <a asp-controller="AzureBlobs"
+                   asp-action="ListBlobs"
+                   asp-route-containername="@container"
+                   class="btn btn-primary btn-sm">
+                    Blobs
+                </a>
+                <a asp-controller="AzureBlobs"
+                   asp-action="UploadBlob"
+                   asp-route-containername="@container"
+                   class="btn btn-success btn-sm">
+                    Upload Blob
+                </a>
+                <a asp-controller="AzureBlobs"
                    asp-action="DeleteContainer"
                    asp-route-containername="@container"
                    class="btn btn-danger btn-sm">
