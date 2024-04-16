@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcCoreAzureStorage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f83e25270ea079f361480ddbb07e8900b4cfa35a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+623e29e377ce75e03d997332d73f55beb8e94723")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcCoreAzureStorage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcCoreAzureStorage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
