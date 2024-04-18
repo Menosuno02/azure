@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "API Empleados Múltiples Routes",
+        Title = "API Empleados",
         Description = "no se",
         Version = "v1",
         Contact = new OpenApiContact

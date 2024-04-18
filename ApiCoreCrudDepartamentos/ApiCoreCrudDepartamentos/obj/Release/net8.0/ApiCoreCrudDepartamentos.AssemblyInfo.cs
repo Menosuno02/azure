@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCoreCrudDepartamentos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c0d3f795918e719198f98649619bb8bba4cdefc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f7bbd115f3b94e192da4cfd55d480e67ce579ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCoreCrudDepartamentos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCoreCrudDepartamentos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

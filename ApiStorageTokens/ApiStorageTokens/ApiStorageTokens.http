@@ -1,0 +1,6 @@
+@ApiStorageTokens_HostAddress = http://localhost:5211
+
+GET {{ApiStorageTokens_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

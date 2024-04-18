@@ -10,7 +10,8 @@
         "dependencies": {
           "Azure.Data.Tables": "12.8.3",
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.4",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "MvcCoreSasStorage.dll": {}

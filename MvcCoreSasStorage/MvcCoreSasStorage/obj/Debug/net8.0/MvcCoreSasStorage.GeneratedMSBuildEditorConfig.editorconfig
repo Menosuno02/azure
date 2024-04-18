@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\MvcCoreSasStorage\MvcCoreSasStorage
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcCoreSasStorage/MvcCoreSasStorage/Views/Alumnos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Alumnos MCSD Mañana/Desktop/NET CORE/MvcCoreSasStorage/MvcCoreSasStorage/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

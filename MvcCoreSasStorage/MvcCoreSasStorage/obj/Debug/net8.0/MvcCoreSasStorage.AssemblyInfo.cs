@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcCoreSasStorage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+623e29e377ce75e03d997332d73f55beb8e94723")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f7bbd115f3b94e192da4cfd55d480e67ce579ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcCoreSasStorage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcCoreSasStorage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

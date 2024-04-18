@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAzureStorageTokens", "ApiAzureStorageTokens\ApiAzureStorageTokens.csproj", "{164A9C0E-C570-4040-8834-4E4CD42DBF8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164A9C0E-C570-4040-8834-4E4CD42DBF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164A9C0E-C570-4040-8834-4E4CD42DBF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164A9C0E-C570-4040-8834-4E4CD42DBF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164A9C0E-C570-4040-8834-4E4CD42DBF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B220E1BA-2553-49D5-A653-B7D1BFA2EDEB}
+	EndGlobalSection
+EndGlobal

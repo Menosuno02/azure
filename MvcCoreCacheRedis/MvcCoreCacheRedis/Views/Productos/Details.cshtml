@@ -1,0 +1,27 @@
+﻿@model MvcCoreCacheRedis.Models.Producto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<h2 class="text-success">@ViewData["MENSAJE"]</h2>
+<p>
+    <a asp-controller="Productos" asp-action="Index">
+        Back to Index
+    </a>
+</p>
+<div class="card w-50">
+    <img src="@Model.Imagen" class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title">@Model.Nombre</h5>
+        <p class="card-text">@Model.Descripcion</p>
+        <p class="card-text text-success">@Model.Precio€</p>
+        <a asp-controller="Productos"
+           asp-action="SeleccionarFavorito"
+           asp-route-idproducto="@Model.IdProducto"
+           class="btn btn-primary">
+            Seleccionar favorito
+        </a>
+    </div>
+</div>

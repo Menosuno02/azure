@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "+AaXVCyAdJ38uBgAYa+O1wI/Q0kGUNsa8zL8SWzMUtefUmNV9h9lsKozZ3GTS3KOhY8bVTFUbBspBqzGDhZPKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alumnos MCSD Mañana\\Desktop\\NET CORE\\ConsoleCacheRedis\\ConsoleCacheRedis\\ConsoleCacheRedis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\8.0.4\\microsoft.extensions.caching.stackexchangeredis.8.0.4.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.1\\microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\stackexchange.redis\\2.7.33\\stackexchange.redis.2.7.33.nupkg.sha512",
+    "C:\\Users\\Alumnos MCSD Mañana\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

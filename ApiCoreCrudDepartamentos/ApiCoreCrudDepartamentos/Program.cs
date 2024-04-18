@@ -21,7 +21,8 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "Métodos de acción",
-        Description = "API CRUD de POST, PUT y DELETE"
+        Description = "API CRUD de POST, PUT y DELETE",
+        Version = "v1"
     });
 });
 

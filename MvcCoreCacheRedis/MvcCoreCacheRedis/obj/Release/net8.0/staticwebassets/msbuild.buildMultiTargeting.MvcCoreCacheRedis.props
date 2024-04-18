@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MvcCoreCacheRedis.props" />
+</Project>

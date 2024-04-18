@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productos>
+  <producto>
+    <idproducto>1</idproducto>
+    <nombre>Nike Air Jordan</nombre>
+    <descripcion>Las Air Jordan VI dejaron huella el año en que MJ llevó a los Bulls hacia su primer título de campeonato. En la actualidad, las Air Jordan 6 Retro para hombre rinden homenaje a las originales de 1991 que cautivaron a toda una generación.</descripcion>
+    <precio>150</precio>
+    <imagen>https://images-na.ssl-images-amazon.com/images/I/71ruzoe8%2BvL._AC_UY395_.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>2</idproducto>
+    <nombre>Nike Air Max BW</nombre>
+    <descripcion>El diseño original de los 90, se actualiza con un tejido Nike Tech Ultramesh para hacerlas más transpirables y una mediasuela ultra esculpida para ser más ligeras que nunca. Nike AirMax BW Ultra.</descripcion>
+    <precio>100</precio>
+    <imagen>https://sneakernews.com/wp-content/uploads/2015/12/nike-air-max-bw-persian-violet-2016-1.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>3</idproducto>
+    <nombre>JHayber New Olimpo</nombre>
+    <descripcion>Su diseño no era para tirar cohetes, pero todos queríamos aquellas zapatillas blancas con sus tres bandas azules, su puntera perforada y esa llama olímpica en su logo. A resistentes no le ganaba ninguna otra marca y con su pedazo suela podíamos estar seguros de no clavarnos nada</descripcion>
+    <precio>45</precio>
+    <imagen>http://yofuiaegb.com/wp-content/uploads/2012/09/Jhayber-blancas.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>4</idproducto>
+    <nombre>Converse All Star</nombre>
+    <descripcion>Las Clásicas Converse All Star de Hombre se encuentran en todas las tallas y colores en la web oficial Converse.com en España.</descripcion>
+    <precio>40</precio>
+    <imagen>https://www.converse.com/on/demandware.static/-/Sites-ConverseMaster/default/dwbebed5b9/images/hi-res/M9160C_standard.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>5</idproducto>
+    <nombre>Puma Drift</nombre>
+    <descripcion>La Drift Cat 5 Core es una fantástica incorporación a nuestra gama de deportes de motor y estilo de vida y es la elección perfecta para cualquier aficionado a los deportes de motor. Cuenta con una silueta veloz de perfil bajo confeccionada con una moderna combinación de cuero plena flor y textil</descripcion>
+    <precio>70</precio>
+    <imagen>http://as01.epimg.net/futbol/imagenes/2009/02/11/mas_futbol/1234337241_740215_0000000001_noticia_normal.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>6</idproducto>
+    <nombre>Tenis Fila</nombre>
+    <descripcion>Unas perfectas zapatillas para ir de Bakala</descripcion>
+    <precio>65</precio>
+    <imagen>https://images-na.ssl-images-amazon.com/images/I/61RpZABDiKL._AC_SX395_.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>7</idproducto>
+    <nombre>Stan Smith</nombre>
+    <descripcion>La Stan Smith se lanzó al mercado como zapatilla de tenis en 1971 y hoy en día sigue siendo un icono de estilo urbano. Esta zapatilla para hombre presenta una elegante parte superior en piel curtida de primera calidad que conserva la esencia del modelo original. Luce el nombre "STAN SMITH" en letras doradas junto a las 3 bandas perforadas.</descripcion>
+    <precio>90</precio>
+    <imagen>https://images-na.ssl-images-amazon.com/images/I/31wf0FteVXL._AC_.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>9</idproducto>
+    <nombre>Cangrejeras</nombre>
+    <descripcion>Las zapatillas de río de toda la vida</descripcion>
+    <precio>15</precio>
+    <imagen>https://static.elcomercio.es/www/multimedia/202006/04/media/cortadas/sandalias-cangrejeras-tedencia-verano-kZME-U110407780146NWE-624x385@El%20Comercio.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>10</idproducto>
+    <nombre>Reebook Classic</nombre>
+    <descripcion>Porque no hay nada como lo clásico… Confía en la gama Reebok Classics y llévate las zapatillas más cómodas y emblemáticas del mercado. Entra en reebok.es.</descripcion>
+    <precio>40</precio>
+    <imagen>https://photos6.spartoo.net/photos/668/6686675/6686675_500_A.jpg</imagen>
+  </producto>  
+  <producto>
+    <idproducto>11</idproducto>
+    <nombre>Alpargatas</nombre>
+    <descripcion>Descubre nuestra selección de alpargatas de mujer y averigua por qué es uno de los calzados más populares. Alpargatas planas o alpargatas de cuña para estilizar la figura, alpargatas marrones y negras para combinar con looks más elegantes y sobrios, alpargatas con plataforma de mayor tendencia.</descripcion>
+    <precio>15</precio>
+    <imagen>https://cdn01.pisamonas.es/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/0/5/0521_conjunto_r2.jpg</imagen>
+  </producto>  
+  <producto>
+    <idproducto>12</idproducto>
+    <nombre>Chanclas Adidas</nombre>
+    <descripcion>Encuentra ahora las chanclas para hombre que necesitas para ir a la piscina o las sandalias para caminar por el campo con comodidad gracias a adidas.</descripcion>
+    <precio>18</precio>
+    <imagen>https://www.srbalon.com/cdnassets/F35556-1_l.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>13</idproducto>
+    <nombre>Victoria</nombre>
+    <descripcion>Victoria es una marca de calzado español que nace en 1915 en una pequeña localidad la Rioja (España), cuando su fundador Gregorio, tuvo la idea de crear unas zapatillas con el nombre de su esposa: Victoria.</descripcion>
+    <precio>25</precio>
+    <imagen>https://www.nenoszapateriainfantil.com/1553-large_default/zapatillas-victoria-elastico-puntera.jpg.pagespeed.ce.FbxlD2jL8e.jpg</imagen>
+  </producto>
+  <producto>
+    <idproducto>14</idproducto>
+    <nombre>Nike Air Mag</nombre>
+    <descripcion>Nike realized the future by hand-delivering the first adaptive Nike Mag shoes to Michael J. Fox. “Though it initially shared only a few seconds of screen time with Michael, the idea behind the Nike Mag unlocked something much bigger at Nike,” says Mark Parker</descripcion>
+    <precio>5500</precio>
+    <imagen>http://www.cordonsnegres.com/wp-content/uploads/nike-air-mag-experience-7.jpg</imagen>
+  </producto>    
+  </productos>
