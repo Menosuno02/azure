@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcDockersComics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cb439a3f109a8127f83e96915221132e4ff6947")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a514344ca7b2b053e9ab6504c09e8a1136b1c163")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcDockersComics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcDockersComics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
