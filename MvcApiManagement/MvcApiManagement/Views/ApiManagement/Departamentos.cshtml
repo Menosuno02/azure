@@ -1,0 +1,57 @@
+﻿@model IEnumerable<MvcApiManagement.Models.Departamento>
+
+@{
+    ViewData["Title"] = "Departamentos";
+}
+
+<h1>Departamentos</h1>
+
+<form method="post">
+    <label>Subscription Key</label>
+    <input type="text" name="suscripcion" class="form-control" />
+    <button class="btn btn-info">
+        Departamentos Key
+    </button>
+</form>
+
+@if (Model != null)
+{
+    <table class="table-info table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdDepartamento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Localidad)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdDepartamento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Localidad)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
