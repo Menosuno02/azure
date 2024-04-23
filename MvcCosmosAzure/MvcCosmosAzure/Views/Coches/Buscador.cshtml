@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MvcCosmosAzure.Models.Vehiculo>
+
+@{
+    ViewData["Title"] = "Vehiculos";
+}
+
+<h1>Buscador Vehículos</h1>
+
+<form method="post">
+    <label class="form-label">Marca</label>
+    <input type="text" name="marca" class="form-control" />
+    <button class="btn btn-info">
+        Buscar coches
+    </button>
+</form>
+@if (Model != null)
+{
+    <table class="table-borderless table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Coche</th>
+                <th>Imagen</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Marca @item.Modelo</td>
+                    <td>
+                        <img width="250" height="150" src="@item.Imagen" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

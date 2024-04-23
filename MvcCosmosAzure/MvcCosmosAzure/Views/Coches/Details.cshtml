@@ -1,0 +1,31 @@
+﻿@model MvcCosmosAzure.Models.Vehiculo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Vehiculo ID @Model.Id</h4>
+    <hr />
+    <div class="card">
+        <img class="card-img-top" src="@Model.Imagen" />
+        <div class="card-body">
+            <h5 class="card-title">@Model.Marca @Model.Modelo</h5>
+            @if (Model.Motor != null)
+            {
+                <h5 class="card-subtitle">Motor</h5>
+                <p class="card-text">Tipo: @Model.Motor.Tipo</p>
+                <p class="card-text">Caballos: @Model.Motor.Caballos</p>
+                <p class="card-text">Cilindrada: @Model.Motor.Cilindrada</p>
+                <p class="card-text">Turbo: @Model.Motor.Turbo</p>
+
+
+            }
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Vehiculos">Back to List</a>
+</div>
