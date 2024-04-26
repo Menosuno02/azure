@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcCoreInsights")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cb1eac315706a15fc1c15687d8bf1b8f5c364fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e1291df43aea108fc10287b17677c12e878ee5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcCoreInsights")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcCoreInsights")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
