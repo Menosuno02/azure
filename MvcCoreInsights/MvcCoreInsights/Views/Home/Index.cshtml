@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Insights</h1>
+    <form method="post">
+        <label class="form-label">Usuario</label>
+        <input type="text" name="usuario" class="form-control" />
+        <label>Donativo</label>
+        <input type="text" name="cantidad" class="form-control" />
+        <button class="btn btn-primary">
+            Realizar donativo
+        </button>
+    </form>
+</div>
+
+<h2 class="text-primary">
+    @ViewData["MENSAJE"]
+</h2>

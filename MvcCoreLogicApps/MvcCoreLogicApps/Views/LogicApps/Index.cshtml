@@ -1,0 +1,17 @@
+﻿<h1 class="text-primary">Index Logic Apps</h1>
+
+<form class="mt-3" method="post">
+    <label class="form-label">Email</label>
+    <input type="text" name="email" class="form-control" />
+    <label class="form-label">Asunto</label>
+    <input type="text" name="asunto" class="form-control" />
+    <label class="form-label">Mensaje</label>
+    <textarea name="mensaje" class="form-control"></textarea>
+    <button class="btn btn-primary mt-3">
+        Enviar mail
+    </button>
+</form>
+
+<h2 class="text-danger">
+    @ViewData["MENSAJE"]
+</h2>

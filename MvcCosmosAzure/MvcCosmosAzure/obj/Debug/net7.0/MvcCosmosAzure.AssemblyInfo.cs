@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcCosmosAzure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c6e9a5a36ca17c843650c35680c6689f1e0b50f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cb1eac315706a15fc1c15687d8bf1b8f5c364fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcCosmosAzure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcCosmosAzure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

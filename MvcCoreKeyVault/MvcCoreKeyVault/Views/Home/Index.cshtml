@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Key Vault</h1>
+    <form method="post">
+        <label class="form-label">Key Vault Secret</label>
+        <input type="text" name="secretkey" class="form-control" />
+        <button class="btn btn-info">
+            Mostrar secreto
+        </button>
+    </form>
+</div>
+
+<h2 class="text-primary">
+    @ViewData["SECRETO"]
+</h2>

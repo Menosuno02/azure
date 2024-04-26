@@ -7,6 +7,7 @@ C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEm
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\ApiEmpleadosMultiplesRoutes.pdb
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Azure.Core.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Azure.Identity.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Azure.Security.KeyVault.Secrets.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
@@ -14,6 +15,7 @@ C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEm
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.Extensions.Azure.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.Identity.Client.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
@@ -29,6 +31,7 @@ C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEm
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\System.ClientModel.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\System.Drawing.Common.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Release\net7.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll

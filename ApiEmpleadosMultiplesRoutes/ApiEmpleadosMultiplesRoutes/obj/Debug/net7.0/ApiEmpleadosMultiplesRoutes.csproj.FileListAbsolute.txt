@@ -71,3 +71,6 @@ C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEm
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Debug\net7.0\ref\ApiEmpleadosMultiplesRoutes.dll
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\obj\Debug\net7.0\ApiEmpleadosMultiplesRoutes.sourcelink.json
 C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\bin\Debug\net7.0\NugetApiModels.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\bin\Debug\net7.0\Microsoft.Extensions.Azure.dll
+C:\Users\Alumnos MCSD Mañana\Desktop\NET CORE\ApiEmpleadosMultiplesRoutes\ApiEmpleadosMultiplesRoutes\bin\Debug\net7.0\System.ClientModel.dll

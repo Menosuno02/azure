@@ -1,13 +1,25 @@
 using ApiEmpleadosMultiplesRoutes.Data;
 using ApiEmpleadosMultiplesRoutes.Repositories;
+using Azure.Security.KeyVault.Secrets;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Azure;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-string connectionString =
-    builder.Configuration.GetConnectionString("SqlAzure");
+builder.Services.AddAzureClients(factory =>
+{
+    factory.AddSecretClient
+        (builder.Configuration.GetSection("KeyVault"));
+});
+
+// DEBEMOS PODER RECUPERAR UN OBJETO INYECTADO EN CLASES
+// QUE NO TIENEN CONSTRUCTOR
+SecretClient secretClient = builder.Services.BuildServiceProvider()
+    .GetService<SecretClient>();
+KeyVaultSecret secret = await secretClient.GetSecretAsync("SqlAzure");
+string connectionString = secret.Value;
 builder.Services.AddTransient<RepositoryEmpleados>();
 builder.Services.AddDbContext<EmpleadosContext>
     (options => options.UseSqlServer(connectionString));
